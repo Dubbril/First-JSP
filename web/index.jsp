@@ -10,8 +10,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <style>
+            #test{
+                color: green;
+                text-align: center;
+                font-size: 3em;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div id="test">
+            Hello World JSP
+        </div>
     </body>
 </html>
